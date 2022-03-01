@@ -25,19 +25,20 @@
                 <h1>NOVO USUARIO</h1>
                 <div class="textfield">
                     <label for="usuario">Nome</label>
-                    <input type="text" name="nome" placeholder="Nome completo">
+                    <!-- Maxlength define o tamanho do campo, limitando a quantidade de informações digitas-->
+                    <input type="text" name="nome" placeholder="Nome completo" maxlength="30">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Email</label>
-                    <input type="text" name="usuario" placeholder="Email">
+                    <input type="text" name="email" placeholder="Email" maxlength="40">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" placeholder="Senha"maxlength="15">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Confirmar Senha</label>
-                    <input type="password" name="confsenha" placeholder="Confirmar Senha">
+                    <input type="password" name="confsenha" placeholder="Confirmar Senha"maxlength="15">
                 </div>
                 <button class="button-login">CADASTRAR</button>
             </div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--Ligaçao com a página de estilo-->
     <link rel="stylesheet" href="styles.css">
 
@@ -15,18 +15,26 @@
 </head>
 <body>
 
+    <!--A intenção foi colocar o logo criado ao lado do card com os elementos para o login-->
+    <!--pra isso colocamos duas divs posicionada dentro de uma pronciapal, a div main-->
     <div class="main-login">
-        
+
+         <!--O logo será posicionado do lado esquerdo, usando a classe left-login-->
         <div class="left-login">
         <img src="assets/Logo3D1.png" class="left-login-img" alt="Logo do sistema">
         </div>
+
+        <!--Os elementos para realizar o login serão posicionados do lado direito, usando a classe right-login-->
         <div class="right-login">
+
+            <!--A classe card-login vai organizar os campos nome de usuário e a senha-->
             <div class="card-login">
                 <!--Login-->
                 <h1>ACESSAR SISTEMA</h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Nome de usuário">
+                    <!-- Campo onde será digitado o nome de usuário. o campo placeholder vai apenas identificar o local para digitação-->
+                    <input type="text" name="email" placeholder="Nome de usuário"> 
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
