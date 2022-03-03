@@ -115,7 +115,6 @@ body * {
     background: #0054a7; /*a cor do botão será azul*/
     cursor: pointer; /*modifica a seta do mouse para cursor de ação*/
     box-shadow: 0px 10px 40px -12px #0054a7; /*sombra do botão entrar*/
-    
 }
 
 /*Aqui definimos uma cor para a href que direciona para página de cadastro*/

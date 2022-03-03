@@ -1,0 +1,37 @@
+/*Primeiro importamos a fonte utilizada para os campos exibidos no título e caixas de texto. A fonte foi importada do googlefonts.*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*O campo body diz respeito ao corpo de nossa página*/
+body {
+    background: url(assets/Background.png) no-repeat; /*Aqui é a imagem de fundo com o comando para não repetir*/
+    background-size: cover; /*a imagem de fundo deve cobrir toda a tela*/
+    margin: 0; /*zerando a margem, ou seja, vai pegar a partir do primeiro pixel*/
+    font-family: 'Titillium Web', sans-serif; /*a fonte titillium é a principal, caso ocorra algum problema a sans-serif é exibida*/
+}
+
+.menu ul{
+    margin:0;
+    background-color: #033166;
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+}
+.menu ul li a:houver {
+    color:  #034085;
+}
+.card-main > h1 {
+    color: #ffffff;
+    
+}
+
+
+
+
