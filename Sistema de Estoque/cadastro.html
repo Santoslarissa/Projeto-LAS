@@ -22,31 +22,32 @@
         </div>
         <div class="right-login">
             <div class="card-login">
-                <h1>NOVO USUARIO</h1>
+                <h1>NOVO USUÁRIO</h1>
                 <div class="textfield">
                     <label for="usuario">Nome</label>
                     <!-- Maxlength define o tamanho do campo, limitando a quantidade de informações digitas-->
-                    <input type="text" name="nome" placeholder="Nome completo" maxlength="30">
+                    <input type="text" name="nome" id ="nome" placeholder="Nome completo" maxlength="30">
+                    
                 </div>
                 <div class="textfield">
                     <label for="usuario">Email</label>
-                    <input type="text" name="email" placeholder="Email" maxlength="40">
+                    <input type="text" name="email" id ="email" placeholder="Email" maxlength="40">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha"maxlength="15">
+                    <input type="password" name="senha" id ="senha" placeholder="Senha"maxlength="15">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Confirmar Senha</label>
-                    <input type="password" name="confsenha" placeholder="Confirmar Senha"maxlength="15">
+                    <input type="password" name="confsenha" id ="confsenha" placeholder="Confirmar Senha"maxlength="15">
                 </div>
-                <button class="button-login">CADASTRAR</button>
+                <button class="button-login" id ="button">CADASTRAR</button>
             </div>
         </div>
     </div>
-    <script>
 
-    </script>
-    
+    <!-- Arquivo javascript externo-->
+    <script src="index.js" ></script>
+
 </body>
 </html>

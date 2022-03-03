@@ -106,7 +106,7 @@ body * {
     width: 50%; /*ocupará 50% do espaço reservado no card right-login*/
     padding: 16px 0px; /*16 pixels a direita e a esquerda*/
     margin: 25px; /*posicionado 25px na parte de cima do botão, preservando a distância entra a caixa da senha*/
-    border: none; /*sem bordas*/
+    border-bottom-color: #202020; /*bordas*/
     border-radius: 5px; /*cantos suavizados em 5px*/
     outline: none; /*sem linhas de contorno quando selecionado*/
     font-weight: 800; /*peso da fonte em 800*/
@@ -122,6 +122,16 @@ a{
     color: rgb(29, 153, 153);
 
 }
+/*Borda do input botão */
+/*a tag important da preferencia para essa ação ocorrer */
+.errorInput {
+    border: 2px solid rgb(199, 35, 35) !important;
+}
+
+/* .sucessInput {
+    border: 2px solid rgb(6, 184, 6) !important;
+} */
+
 
 
 /*Os comandos de mídia ajustam a página para dispositivos com largura máxima 950px*/
