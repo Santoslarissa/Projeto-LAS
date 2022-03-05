@@ -3,29 +3,141 @@
 
 /*O campo body diz respeito ao corpo de nossa página*/
 body {
-    background: url(assets/Background.png) no-repeat; /*Aqui é a imagem de fundo com o comando para não repetir*/
+    background-color: #ffffff no-repeat; /*Aqui é a imagem de fundo com o comando para não repetir*/
     background-size: cover; /*a imagem de fundo deve cobrir toda a tela*/
     margin: 0; /*zerando a margem, ou seja, vai pegar a partir do primeiro pixel*/
     font-family: 'Titillium Web', sans-serif; /*a fonte titillium é a principal, caso ocorra algum problema a sans-serif é exibida*/
 }
 
-.menu ul{
-    margin:0;
-    background-color: #033166;
+.tela-home {
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.home-head {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #000e1f;
+}
+
+.home-head > h1 {
+    color: #ffffff;
+    font-size: 16pt; 
+    margin: 16px;
+    padding: 0px 45px;
+}
+
+.logo-img {
+    position: absolute;
+    width: 5%;
+}
+
+.home-background {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home-product {
+    position: absolute;
+    width: 70vw;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0054a7;
+    margin-top: 100px;
+    margin-left: 20%;
+    width: 20%;
+    flex-direction: column;
+    padding: 30px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #00000050;
+}
+
+.home-product > h1 {
+    color: #ffffff;
+    font-size: 13pt; 
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+}
+
+.description-cadastrar {
+    position: absolute;
+    width: 38vw; 
+    color: #000e1f;
+    font-size: 12pt; 
+    margin-left: 45%;
+    margin-top: 9%;    
+}
+
+.home-product-cad {
+    position: absolute;
+    width: 70vw;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4a826;
+    margin-top: 350px;
+    margin-left: 10%;
+    flex-direction: column;
+    width: 20%;
+    padding: 30px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #00000050;
+}
+
+.home-product-cad > h1 {
+    color: #ffffff;
+    font-size: 13pt; 
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.hand-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+}
+
+.description-product-cad {
+    position: absolute;
+    width: 38vw; 
+    color: #000e1f;
+    font-size: 12pt; 
+    margin-left: 35%;
+    margin-top: 30%;    
+}
+
+.menu ul {
+    margin: 0;
+    background-color: #002753;
     list-style: none;
 }
+
 .menu ul li{
     display: inline;
 }
 .menu ul a {
-    padding: 10px 10px;
+    padding: 10px 20px;
     display: inline-block;
     color: white;
     text-decoration: none;
 
 }
-.menu ul li a:houver {
-    color:  #034085;
+.menu ul li a:hover {
+    color: #0074f8;
 }
 .card-main > h1 {
     color: #ffffff;

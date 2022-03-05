@@ -103,8 +103,8 @@ body * {
     
 /*Chamamos a classe button-login para estilizar nosso botão de entrada*/
 .button-login {
-    width: 50%; /*ocupará 50% do espaço reservado no card right-login*/
-    padding: 16px 0px; /*16 pixels a direita e a esquerda*/
+    width: 150px; /*ocupará 50% do espaço reservado no card right-login*/
+    padding: 14px 0px; /*16 pixels a direita e a esquerda*/
     margin: 25px; /*posicionado 25px na parte de cima do botão, preservando a distância entra a caixa da senha*/
     border-bottom-color: #202020; /*bordas*/
     border-radius: 10px; /*cantos suavizados em 5px*/
@@ -116,11 +116,10 @@ body * {
     cursor: pointer; /*modifica a seta do mouse para cursor de ação*/
     box-shadow: 0px 10px 40px -12px #0054a7; /*sombra do botão entrar*/
 }
-.button-login:hover{
-    transition:2s;
+.button-login:hover {
+    transition: 2s;
     background-color: #1d79d4;
-    border-radius: 0px;
-    border-left: 5px solid rgb(86, 121, 121);
+    border-radius: 10px;
 }
 
 /*Aqui definimos uma cor para a href que direciona para página de cadastro*/
